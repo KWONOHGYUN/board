@@ -38,3 +38,29 @@
     height: 100%;
     visibility: visible;
 }
+
+/* menu underbar */
+
+.nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.nav li {
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+}
+#underbar {
+    position: absolute;
+    width: 47px;
+    left : 136px;
+    top: 135px;
+    height: 4px;
+    background-color: pink;
+    transition: 0.4s;
+}
+.nav li a:link{color:black}
+.nav li a:visited{color:black}
